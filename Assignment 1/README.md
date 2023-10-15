@@ -8,7 +8,7 @@ The "driver_node" is implemented with a ROS node that initializes a publisher fo
 
 The "simulator_node" simulates robot movement based on velocity commands from the "cmd_vel" topic. The subscriber node subscribe to the cmd_vel, and extracts the diiferential wheel velocities. If the velocities are equal the robot goes in straight line, if not then it rotates around a center point. Both the linear and circular velocities are function of time. The time difference is used to calculate how much time has elapsed since the last velocity command was published which allows the code to estimate the change in the robot's position and orientation over time. Finally the other topic publishes the final x,y and orientation as Pose2D message on the "pose_2d" topic. 
 
-I have compelted the code using python3 and ros dependecies. 
+I have compelted the code using python3 and ros dependecies. I tired using ros.time but it was causing an error. So i used the built in python time.time library for time calculation. 
 
 ## Code Description 
 
@@ -100,7 +100,7 @@ I have compelted the code using python3 and ros dependecies.
     chmod +x driver.py
     chmod +x simulator.py
 
-### Write code in the node files   
+### Write code in the node files. The code is included in the assignment 1 folder.    
 
 ### Create a .launch file in the launch folder. 
     <launch>
