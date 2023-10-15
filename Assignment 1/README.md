@@ -83,4 +83,43 @@ I have compelted the code using python3 and ros dependecies.
     Main Function Call:
         if __name__ == '__main__': main(): The script's main function is called when the script is executed as the main program. The main() function initializes the ROS node, sets up publishing and subscribing, and enters the main loop. The rospy.spin() call keeps the node running.
 
+## Instruction to recreate the program
+
+### Initialize Catkin Workspace
+    mkdir -p ~/catkin_ws/src
+    cd ~/catkin_ws/
+    catkin_make
+
+### Create a New Package
+    catkin_create_pkg driver_simulation rospy std_msgs
+
+### Add Python Scripts
+    cd ~/catkin_ws/src/driver_simulation/src
+    touch driver.py
+    touch simulator.py
+    chmod +x driver.py
+    chmod +x simulator.py
+
+### Write code in the node files   
+
+### Create a .launch file in the launch folder. 
+    <launch>
+        <node name="driver_node" pkg="driver_simulation" type="driver.py" output="screen"/>
+        <node name="simulator_node" pkg="driver_simulation" type="simulator.py" output="screen"/>
+    </launch>
+
+### Build package
+    cd ~/catkin_ws
+    catkin_make
+
+### Source workspace
+    source ~/catkin_ws/devel/setup.bash
+
+### Launch the ros nodes using the launch file
+    roslaunch driver_simulation driver_simulation.launch
+
+
+
+
+
 
