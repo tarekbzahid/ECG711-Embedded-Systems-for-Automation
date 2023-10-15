@@ -1,0 +1,7 @@
+<!-- driver_simulation.launch -->
+
+<launch>
+  <node name="driver_node" pkg="driver_simulation" type="driver.py" output="screen"/>
+  <node name="simulator_node" pkg="driver_simulation" type="simulator.py" output="screen"/>
+</launch>
+
