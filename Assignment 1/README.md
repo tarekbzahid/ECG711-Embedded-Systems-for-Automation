@@ -100,7 +100,7 @@ I have compelted the code using python3 and ros dependecies. I tired using ros.t
     chmod +x driver.py
     chmod +x simulator.py
 
-### Write code in the node files. The code is included in the assignment 1 folder.    
+### Write code in the node files. The codes are included in the assignment 1 folder.    
 
 ### Create a .launch file in the launch folder. 
     <launch>
