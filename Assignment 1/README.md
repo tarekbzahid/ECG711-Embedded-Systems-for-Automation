@@ -10,6 +10,9 @@ The "simulator_node" simulates robot movement based on velocity commands from th
 
 I have compelted the code using python3 and ros dependecies. I tired using ros.time but it was causing an error. So i used the built in python time.time library for time calculation. 
 
+Code: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%201/catkin_ws
+Images: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%201/images 
+
 ## Code Description 
 
 ### The Driver node
@@ -65,7 +68,7 @@ I have compelted the code using python3 and ros dependecies. I tired using ros.t
     Callback Function for cmd_vel:
         The cmd_vel_callback function processes messages received on the "cmd_vel" topic.
         It updates the robot's position and heading based on the differential wheel velocities received in the message.
-        If both wheel velocities are the same, the robot moves straight. If they differ, the robot undergoes rotation.
+        If both the wheel velocities are same, the robot moves in a straight line, with no change in theta. If they differ, the robot undergoes rotation there is a change in x, y and theta. I have checked it for further confirmation. 
         The calculation done for getting the final position of the robot is based on notes for the lecture 6.
         When
         The updated pose is published as a Pose2D message.
@@ -117,9 +120,3 @@ I have compelted the code using python3 and ros dependecies. I tired using ros.t
 
 ### Launch the ros nodes using the launch file
     roslaunch driver_simulation driver_simulation.launch
-
-
-
-
-
-
