@@ -1,3 +1,3 @@
 # ECG711 - Course Assignments Repository 
 
-## author : Tarek Z
+## author : Tarek Z zahid@unlv.nevada.edu
