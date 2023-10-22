@@ -1,0 +1,8 @@
+<launch>
+  <!-- Launch the driver node -->
+  <node pkg="inverse_kinematics" type="driver.py" name="driver_node" output="screen" />
+
+  <!-- Launch the controller node -->
+  <node pkg="inverse_kinematics" type="controller.py" name="controller_node" output="screen" />
+
+</launch>

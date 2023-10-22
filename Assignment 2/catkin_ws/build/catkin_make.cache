@@ -1,0 +1,2 @@
+inverse_kinematics
+-DCATKIN_DEVEL_PREFIX=/home/tzahid/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tzahid/catkin_ws/install -G Unix Makefiles
