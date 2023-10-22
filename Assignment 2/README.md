@@ -53,7 +53,7 @@ Images: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%202/images
 
 The packages and the files in a similar fashion to assignment 1. 
 
-To run the launch file:  
+### To run the launch file:  
 
 roslaunch inverse_kinematics inverse_kinematics.launch
 
