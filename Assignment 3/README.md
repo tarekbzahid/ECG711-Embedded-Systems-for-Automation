@@ -8,7 +8,7 @@
 
 Code: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%303/catkin_ws
 
-Images: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%303/images 
+Images: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%303/images
 
 Youtube: 
 
