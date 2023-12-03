@@ -1,14 +1,10 @@
-# Assignment 2 - Tarek Z
+# Assignment 3 - Tarek Z
 
 ##  Assignment Summary
 
-There will be two nodes: 
+1. To update the URDF file to make it similar to our robot, and shot TF points in Rviz
+2. Simulate the robot's motion using keyboard command
 
-### the driver node -> publish a target desitination as Pose2D as goal_pose topic
-### the controller node -> will try to reach to the destination position while publishing its current pose and differential speed
-
-The controller node will calculate the error which the difference current linear and angular position and the destination linear and angular position. It will try to minimize the error using the PID controller. PID controller is designed to minimize the error without too much moving back and forth. We initially set the Kp , Ki, Kd values as constants. 
-Its a feedback loop, the new position found using the PID is again set as current position and compared with the target position. This continues until the error comes within the tolerance level of linear and angualr position. 
 
 Code: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%202/catkin_ws
 
