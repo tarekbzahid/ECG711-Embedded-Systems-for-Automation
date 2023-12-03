@@ -6,9 +6,9 @@
 2. Simulate the robot's motion using keyboard command
 
 
-Code: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%303/catkin_ws
+Code: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%203/catkin_ws
 
-Images: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%303/images
+Images: https://github.com/tarekbzahid/ECG711/tree/main/Assignment%203/images
 
 Youtube: 
 
