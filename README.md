@@ -1,11 +1,13 @@
-# ECG711 - Embedded Systems for Automation
+# AutoNav-ROS
+
+### Autonomous Navigation ROS Platform
 
 [![ROS](https://img.shields.io/badge/ROS-Melodic-blue.svg)](http://wiki.ros.org/melodic)
 [![Platform](https://img.shields.io/badge/Platform-Jetson%20Nano-green.svg)](https://developer.nvidia.com/embedded/jetson-nano)
 [![Python](https://img.shields.io/badge/Python-3.6+-yellow.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-Educational-orange.svg)](LICENSE)
 
-> **🤖 Alternative Project Name Suggestions**: AutoNav-ROS | RoboMapper | SmartBot Navigator | NavBot Framework
+> 📚 **Course Project**: ECG711 - Embedded Systems for Automation
 
 An autonomous mobile robot platform built with ROS (Robot Operating System), featuring differential drive navigation, SLAM mapping, PID control, and real-world hardware implementation on Jetson Nano.
 
@@ -221,9 +223,9 @@ ECG711-Embedded-Systems-for-Automation/
 - **ROS Documentation**: [http://wiki.ros.org/](http://wiki.ros.org/)
 - **Yahboom ROS Controller**: [http://www.yahboom.net/study/ROSMASTER-X1](http://www.yahboom.net/study/ROSMASTER-X1)
 
-## License
+## 📄 License
 
-This repository is for educational purposes as part of the ECG711 course.
+This project was developed as part of ECG711 (Embedded Systems for Automation) coursework and is intended for educational purposes.
 
 ## Acknowledgments
 
