@@ -2,6 +2,8 @@
 
 This repository contains coursework and assignments for ECG711 (Embedded Systems for Automation), focusing on Robot Operating System (ROS), robotics simulation, autonomous navigation, and embedded systems programming.
 
+**📖 [Read the detailed ABOUT document](./ABOUT.md) for an in-depth look at the course, learning objectives, technical deep dives, and real-world applications.**
+
 ## Author
 
 **Tarek Z**
@@ -121,6 +123,7 @@ ECG711-Embedded-Systems-for-Automation/
 ├── Assignment 4/          # Physical robot setup
 │   ├── images/
 │   └── README.md
+├── ABOUT.md               # Detailed course documentation
 └── README.md              # This file
 ```
 
