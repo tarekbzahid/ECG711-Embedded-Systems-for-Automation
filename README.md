@@ -5,7 +5,6 @@ This repository contains coursework and assignments for ECG711 (Embedded Systems
 ## Author
 
 **Tarek Z**
-Email: zahid@unlv.nevada.edu
 YouTube Playlist: [ECG 711 Course Videos](https://www.youtube.com/playlist?list=PL-m3G6XXLHQtwv6o8FqcqjEjRjHKm8WNG)
 
 ## Repository Overview
